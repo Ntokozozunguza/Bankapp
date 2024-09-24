@@ -1,0 +1,1 @@
+first slect all right answers  to qualify for a loan , then you will see an alert of qualification , then allow location , ( then youll see the alert never disapears , but in the code on the fucntion the display="none". is put . 2-choose answers for a non qualifying person for a loan then youll see the alerts dont disapear
