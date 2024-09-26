@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Eligibility Checker</title>
+    <link rel="stylesheet" href="styles/main.css style>
+</head>
+       
+
+<body>
+
+<nav>
+    <h2>Bank App</h2>
+    <div class="profile-avatar" id="profile-avatar"></div>
+    <div class="menu" id="menu">
+        <h3>Profile Information</h3>
+        <p>Name: User</p>
+        <p>Email: user@example.com</p>
+        <button id="close-menu">Close</button>
+    </div>
+</nav>
+
+<main>
+    <div class="loader" id="loader" style="display: none;">Loading...</div>
+
+    <section id="bank-selection">
+        <h1>Select a Bank</h1>
+        <div class="bank-grid">
+            <button class="bank" data-bank="Bank1">
+                <img src="bank1.png" alt="Bank 1 Logo">
+                Bank 1
+            </button>
+            <button class="bank" data-bank="Bank2">
+                <img src="bank2.png" alt="Bank 2 Logo">
+                Bank 2
+            </button>
+            <button class="bank" data-bank="Bank3">
+                <img src="bank3.png" alt="Bank 3 Logo">
+                Bank 3
+            </button>
+            <button class="bank" data-bank="Bank4">
+                <img src="bank4.png" alt="Bank 4 Logo">
+                Bank 4
+            </button>
+            <button class="bank" data-bank="Bank5">
+                <img src="bank5.png" alt="Bank 5 Logo">
+                Bank 5
+            </button>
+        </div>
+    </section>
+
+    <section id="eligibility-questions" style="display: none;">
+        <h1>Eligibility Questions</h1>
+        <div class="question-container"></div>
+    </section>
+
+    <div id="map" style="display: none;">Map placeholder (visible only when qualified)</div>
+    
+    <button id="suggested-bank" style="display: none;">You can also try</button>
+
+    <div class="alert" id="alert-message" style="display: none;">
+        <span id="alert-text"></span>
+        <div class="remaining-bank" id="remaining-bank-list"></div>
+    </div>
+
+    <div class="qualification-alert" id="qualification-alert" style="display: none;">
+        <p id="qualification-text"></p>
+        <button id="view-nearby-banks">View Nearby Banks</button>
+    </div>
+
+    <div class="location-alert" id="location-alert" style="display: none;">
+        <p>Please enable location services to view nearby banks.</p>
+        <button id="enable-location">Turn On Location</button>
+        <button id="close-location-alert">Close</button>
+    </div>
+</main>
+
+
+
+
+</body>
+</html>
