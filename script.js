@@ -1,5 +1,3 @@
-<script src="script.js">
-
     const questions = [
         {
             question: "Are you currently employed?",
@@ -202,4 +200,3 @@ document.getElementById('suggested-bank').addEventListener('click', function() {
     window.addEventListener('popstate', () => {
         showSection('main');
     });
-</script>
